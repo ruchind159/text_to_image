@@ -13,7 +13,7 @@ coco_model=loading_model('coco')
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Image Generation from text \n Enter in url /(bird or coco)/description accordingly \n e.g. http://127.0.0.1:5000/bird/this bird is red with white"
 
 @app.route("/<dataset_name>/<sentence>")              #this is same as the grammar check function in main file
 def generate_image(dataset_name,sentence):
