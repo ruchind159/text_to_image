@@ -1,3 +1,6 @@
+For getting started just clone the repository and pip install requiremnts.txt  
+Then run flas_api.py inside code folder to get started with the flask app otherwise run gen_image.py to generate images from a sentence.
+
 # AttnGAN (Python 3, Pytorch 1.0)
 
 Pytorch implementation for reproducing AttnGAN results in the paper [AttnGAN: Fine-Grained Text to Image Generation
